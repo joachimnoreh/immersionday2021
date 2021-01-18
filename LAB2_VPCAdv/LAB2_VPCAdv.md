@@ -34,13 +34,13 @@ Each instance is deployed in its own VPC on a private subnet inside an Availabil
 
 **Step 6 :**  Select "**Template is ready**"and "Upload a template file":
 
- ![img](img/clip_image007.png)In the 
+ ![img](img/clip_image007.png)
 
-**Step 7 :**Download the [CloudFormation template here](./VPCPeeringLab-stack.template.json)
+**Step 7 :** Download the [CloudFormation template here](./VPCPeeringLab-stack.template.json)
 
-**Step 8 :**And select the downloaded file *VPCPeeringLab-stack.template.json*
+**Step 8 :** And select the downloaded file *VPCPeeringLab-stack.template.json*
 
-**Step 9 :**Then click "**Next**" button.
+**Step 9 :** Then click "**Next**" button.
 
 **Step 10 :** Enter the **Stack Name** of you choice, then click **Next**
 
@@ -52,7 +52,7 @@ Each instance is deployed in its own VPC on a private subnet inside an Availabil
 
 **Step 12 :** In the next page, leave all options as default then click Next again
 
-**Step 13 :**  Acknowledge that CloudFormation will be authorized to create IAM resources and click "**Create Stack**"
+**Step 13 :** Acknowledge that CloudFormation will be authorized to create IAM resources and click "**Create Stack**"
 
 
 
@@ -256,7 +256,7 @@ Note: Make sure to select the **Private** subnet, not the Public one.
 
 **Step 42 :** Perform the same operation with the VPC-10.2.0.0—16 routing table but this time add the VPC-10.1.0.0-16 CIDR as destination:
 
-**Step 43 :**  Now Connect again to the instance A in VPC-10.1.0.0—16 using the SSM session and try again to ping the instance B in VPC-10.2.0.0—16:
+**Step 43 :** Now Connect again to the instance A in VPC-10.1.0.0—16 using the SSM session and try again to ping the instance B in VPC-10.2.0.0—16:
 
 
 
@@ -268,7 +268,7 @@ Note: Make sure to select the **Private** subnet, not the Public one.
 
 
 
-## 5. Bonus track - Do it with a transit Gateway
+## 5. Bonus track - Do it with an AWS Transit Gateway
 
 
 
