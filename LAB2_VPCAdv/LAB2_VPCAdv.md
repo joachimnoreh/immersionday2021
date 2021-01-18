@@ -1,13 +1,5 @@
 # **Lab VPC Peering**
-
-```
-TODO: 
-- Update the diagrams with the routing tables ?
-- Check if another lab is going to consume the same resources and if so if the provided template meets the requirements.
-```
-
-
- In this lab you will setup a VPC peering allowing on EC2 instance from each VPC to communicate with the other
+In this lab you will setup a VPC peering allowing on EC2 instance from each VPC to communicate with the other
 
 ## 1. Deploy the Lab environment
 
