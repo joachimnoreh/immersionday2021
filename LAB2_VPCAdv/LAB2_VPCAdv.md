@@ -77,7 +77,8 @@ Each instance is deployed in its own VPC on a private subnet inside an Availabil
 
  **Step 17 :** From the left pane select "**Instances**"
 
- ![img](img/clip_image013.png) 
+ ![img](img/clip_image013.png)
+ 
  You should be able to see two EC2 instances created by CloudFormation
 
  ![img](img/clip_image014.png) 
